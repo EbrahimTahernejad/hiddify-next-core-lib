@@ -48,7 +48,7 @@ jobs:
           echo "" >> Package.swift
           echo "let package = Package(" >> Package.swift
           echo "  name: \"Libcore\"," >> Package.swift
-          echo "  platforms: [.iOS(.v12)]," >> Package.swift
+          echo "  platforms: [.iOS(.v12), .macOS(.v10_13)]," >> Package.swift
           echo "  products: [" >> Package.swift
           echo "    .library(name: \"Libcore\", targets: [\"Libcore\"])" >> Package.swift
           echo "  ]," >> Package.swift
