@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: |
           cd box
-          make ios
+          make ios-full
           cd bin
           zip -ry ./Libcore.xcframework.zip ./Libcore.xcframework
           
