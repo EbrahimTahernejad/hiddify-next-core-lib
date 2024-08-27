@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "Libcore",
-      url: "https://github.com/EbrahimTahernejad/hiddify-next-core-lib/releases/download/0.0.6/Libcore.xcframework.zip",
-      checksum: "0a7343beec04e24179bc677c02120a6f35ebbcecb5e83b4de948c27352be05ec"
+      url: "https://github.com/EbrahimTahernejad/hiddify-next-core-lib/releases/download/0.0.7/Libcore.xcframework.zip",
+      checksum: "31c04636087cfa3a52186c39b91ba730f2d8ae6c830cbea1c35ebef3ea9db858"
     )
   ]
 )
